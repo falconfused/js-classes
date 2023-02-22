@@ -16,64 +16,66 @@ let dataset = [
                                 "id": 1,
                                 "name": "Practice Set 1",
                                 "type": "McqSets",
-                                "instructions": [
-                                    "instruction1", "instruction2", "instruction3"
-                                ],
+
                                 "questions": [
-                                    "question1",
-                                    "question2",
-                                    "question3",
-                                    "question4",
-                                    "question5"
+                                    {
+                                        "id": 1,
+                                        "instructions": [],
+                                        "questionStatement": "Find the Longest Increasing Subsequence",
+                                        "options": [],
+                                        "answer": ""
+                                    },
+                                    {
+                                        "id": 2,
+                                        "instructions": [],
+                                        "questionStatement": "Find the Longest Increasing Subsequence",
+                                        "options": [],
+                                        "answer": ""
+                                    },
+                                    {
+                                        "id": 3,
+                                        "instructions": [],
+                                        "questionStatement": "Find the Longest Increasing Subsequence",
+                                        "options": [],
+                                        "answer": ""
+                                    },
 
-                                ],
-                                "answers": [
-                                    "answer1",
-                                    "answer2",
-                                    "answer3",
-                                    "answer4",
-                                    "answer5"
-                                ],
-
+                                ]
                             },
                             {
                                 "type": "CodingSets",
                                 "id": 2,
                                 "name": "Practice Set 1",
                                 "questions": [
-                                    "question1",
-                                    "question2",
-                                    "question3",
-                                    "question4",
-                                    "question5"
+                                    {
+                                        "id": 1,
+                                        "instructions": [],
+                                        "questionStatement": "Find the Longest Increasing Subsequence",
+                                        "options": [],
+                                        "solution": "",
+                                        "discussion": [{
+                                            "name": "disucssion-name",
+                                            "comments": []
+                                        }]
+                                    },
+                                    {
+                                        "id": 2,
+                                        "instructions": [],
+                                        "questionStatement": "Find the Longest Increasing Subsequence",
+                                        "options": [],
+                                        "discussions": [],
+                                        "answer": ""
+                                    },
+                                    {
+                                        "id": 3,
+                                        "instructions": [],
+                                        "questionStatement": "Find the Longest Increasing Subsequence",
+                                        "options": [],
+                                        "discussions": [],
+                                        "answer": ""
+                                    },
 
-                                ],
-                                "details": [
-                                    "details1",
-                                    "details2",
-                                    "details3",
-                                    "details4",
-                                    "details5"
-
-                                ],
-                                "submit": "",
-                                "run": "",
-                                "solutions": [
-                                    "solutions1",
-                                    "solutions2",
-                                    "solutions3",
-                                    "solutions4",
-                                    "solutions5"
-                                ],
-                                "discussions": [
-                                    "discussions1",
-                                    "discussions2",
-                                    "discussions3",
-                                    "discussions4",
-                                    "discussions5"
-                                ],
-                                "reset": "",
-                                "save": ""
+                                ]
 
                             },
 
@@ -82,274 +84,114 @@ let dataset = [
                                 "id": 3,
                                 "name": "Practice Set 1",
                                 "questions": [
-                                    "question1",
-                                    "question2",
-                                    "question3",
-                                    "question4",
-                                    "question5"
+                                    {
+                                        "id": 1,
+                                        "instructions": [],
+                                        "questionStatement": "Find the Longest Increasing Subsequence",
+                                        "options": [],
+                                        "solution": "",
+                                        "submissions": [],
+                                        "discussion": [{
+                                            "name": "disucssion-name",
+                                            "comments": []
+                                        }]
+                                    },
+                                    {
+                                        "id": 2,
+                                        "instructions": [],
+                                        "questionStatement": "Find the Longest Increasing Subsequence",
+                                        "options": [],
+                                        "discussions": [],
+                                        "submissions": [],
+                                        "answer": ""
+                                    },
+                                    {
+                                        "id": 3,
+                                        "instructions": [],
+                                        "questionStatement": "Find the Longest Increasing Subsequence",
+                                        "options": [],
+                                        "discussions": [],
+                                        "submissions": [],
+                                        "answer": ""
+                                    },
 
-                                ],
-                                "details": [
-                                    "details1",
-                                    "details2",
-                                    "details3",
-                                    "details4",
-                                    "details5"
+                                ]
 
-                                ],
-                                "submit": "",
-                                "run": "",
-                                "solutions": [
-                                    "solutions1",
-                                    "solutions2",
-                                    "solutions3",
-                                    "solutions4",
-                                    "solutions5"
-                                ],
-                                "discussions": [
-                                    "discussions1",
-                                    "discussions2",
-                                    "discussions3",
-                                    "discussions4",
-                                    "discussions5"
-                                ],
-                                "reset": "",
-                                "save": ""
                             },
-
                             {
                                 "type": "LearningSets",
                                 "id": 4,
                                 "name": "Practice Set 1",
-                                "videodetails": "",
-                                "discussions": [
-                                    "discussions1",
-                                    "discussions2",
-                                    "discussions3",
-                                    "discussions4",
-                                    "discussions5"
-                                ],
-                                "notes": [
-                                    "notes1",
-                                    "notes2",
-                                    "notes3",
-                                    "notes4",
-                                    "notes5"
-                                ],
-                                "completed": "",
-                                "feedback": "",
-                                "doubt": ""
-                            },
+                                "videos": [
+                                    {
+                                        "id": 1,
+                                        "notes": [],
+                                        "details": "",
+                                        "discussion": [{
+                                            "name": "disucssion-name",
+                                            "comments": []
+                                        }]
+                                    },
+                                    {
+                                        "id": 2,
+                                        "instructions": [],
+                                        "questionStatement": "Find the Longest Increasing Subsequence",
+                                        "options": [],
+                                        "discussions": [],
+                                        "answer": ""
+                                    },
+                                    {
+                                        "id": 3,
+                                        "instructions": [],
+                                        "questionStatement": "Find the Longest Increasing Subsequence",
+                                        "options": [],
+                                        "discussions": [],
+                                        "answer": ""
+                                    },
 
+                                ]
+
+                            },
                             {
                                 "type": "PracticeSets",
                                 "id": 5,
                                 "name": "Practice Set 1",
                                 "questions": [
-                                    "question1",
-                                    "question2",
-                                    "question3",
-                                    "question4",
-                                    "question5"
+                                    {
+                                        "id": 1,
+                                        "instructions": [],
+                                        "questionStatement": "Find the Longest Increasing Subsequence",
+                                        "options": [],
+                                        "solution": "",
+                                        "submissions": "",
+                                        "discussion": [{
+                                            "name": "disucssion-name",
+                                            "comments": []
+                                        }]
+                                    },
+                                    {
+                                        "id": 2,
+                                        "instructions": [],
+                                        "questionStatement": "Find the Longest Increasing Subsequence",
+                                        "options": [],
+                                        "submissions": "",
+                                        "discussions": [],
+                                        "answer": ""
+                                    },
+                                    {
+                                        "id": 3,
+                                        "instructions": [],
+                                        "questionStatement": "Find the Longest Increasing Subsequence",
+                                        "options": [],
+                                        "submissions": "",
+                                        "discussions": [],
+                                        "answer": ""
+                                    },
 
-                                ],
-                                "details": [
-                                    "details1",
-                                    "details2",
-                                    "details3",
-                                    "details4",
-                                    "details5"
-
-                                ],
-                                "submit": "",
-                                "run": "",
-                                "solutions": [
-                                    "solutions1",
-                                    "solutions2",
-                                    "solutions3",
-                                    "solutions4",
-                                    "solutions5"
-                                ],
-                                "discussions": [
-                                    "discussions1",
-                                    "discussions2",
-                                    "discussions3",
-                                    "discussions4",
-                                    "discussions5"
-                                ],
-                                "reset": "",
-                                "save": ""
-
-                            },
-                            {
-                                "id": 6,
-                                "name": "Practice Set 1",
-                                "type": "McqSets",
-                                "instructions": [
-                                    "instruction1", "instruction2", "instruction3"
-                                ],
-                                "questions": [
-                                    "question1",
-                                    "question2",
-                                    "question3",
-                                    "question4",
-                                    "question5"
-
-                                ],
-                                "answers": [
-                                    "answer1",
-                                    "answer2",
-                                    "answer3",
-                                    "answer4",
-                                    "answer5"
-                                ],
-
-                            },
-                            {
-                                "type": "CodingSets",
-                                "id": 7,
-                                "name": "Practice Set 1",
-                                "questions": [
-                                    "question1",
-                                    "question2",
-                                    "question3",
-                                    "question4",
-                                    "question5"
-
-                                ],
-                                "details": [
-                                    "details1",
-                                    "details2",
-                                    "details3",
-                                    "details4",
-                                    "details5"
-
-                                ],
-                                "submit": "",
-                                "run": "",
-                                "solutions": [
-                                    "solutions1",
-                                    "solutions2",
-                                    "solutions3",
-                                    "solutions4",
-                                    "solutions5"
-                                ],
-                                "discussions": [
-                                    "discussions1",
-                                    "discussions2",
-                                    "discussions3",
-                                    "discussions4",
-                                    "discussions5"
-                                ],
-                                "reset": "",
-                                "save": ""
+                                ]
 
                             },
 
-                            {
-                                "type": "AssignmentSets",
-                                "id": 8,
-                                "name": "Practice Set 1",
-                                "questions": [
-                                    "question1",
-                                    "question2",
-                                    "question3",
-                                    "question4",
-                                    "question5"
-
-                                ],
-                                "details": [
-                                    "details1",
-                                    "details2",
-                                    "details3",
-                                    "details4",
-                                    "details5"
-
-                                ],
-                                "submit": "",
-                                "run": "",
-                                "solutions": [
-                                    "solutions1",
-                                    "solutions2",
-                                    "solutions3",
-                                    "solutions4",
-                                    "solutions5"
-                                ],
-                                "discussions": [
-                                    "discussions1",
-                                    "discussions2",
-                                    "discussions3",
-                                    "discussions4",
-                                    "discussions5"
-                                ],
-                                "reset": "",
-                                "save": ""
-                            },
-
-                            {
-                                "type": "LearningSets",
-                                "id": 9,
-                                "name": "Practice Set 1",
-                                "videodetails": "",
-                                "discussions": [
-                                    "discussions1",
-                                    "discussions2",
-                                    "discussions3",
-                                    "discussions4",
-                                    "discussions5"
-                                ],
-                                "notes": [
-                                    "notes1",
-                                    "notes2",
-                                    "notes3",
-                                    "notes4",
-                                    "notes5"
-                                ],
-                                "completed": "",
-                                "feedback": "",
-                                "doubt": ""
-                            },
-
-                            {
-                                "type": "PracticeSets",
-                                "id": 10,
-                                "name": "Practice Set 1",
-                                "questions": [
-                                    "question1",
-                                    "question2",
-                                    "question3",
-                                    "question4",
-                                    "question5"
-
-                                ],
-                                "details": [
-                                    "details1",
-                                    "details2",
-                                    "details3",
-                                    "details4",
-                                    "details5"
-
-                                ],
-                                "submit": "",
-                                "run": "",
-                                "solutions": [
-                                    "solutions1",
-                                    "solutions2",
-                                    "solutions3",
-                                    "solutions4",
-                                    "solutions5"
-                                ],
-                                "discussions": [
-                                    "discussions1",
-                                    "discussions2",
-                                    "discussions3",
-                                    "discussions4",
-                                    "discussions5"
-                                ],
-                                "reset": "",
-                                "save": ""
-
-                            },
 
                         ]
                     }
@@ -357,69 +199,72 @@ let dataset = [
                     {
                         "id": 2,
                         "name": "Graph",
+
                         "sets": [
                             {
                                 "id": 1,
                                 "name": "Practice Set 1",
                                 "type": "McqSets",
-                                "instructions": [
-                                    "instruction1", "instruction2", "instruction3"
-                                ],
+
                                 "questions": [
-                                    "question1",
-                                    "question2",
-                                    "question3",
-                                    "question4",
-                                    "question5"
+                                    {
+                                        "id": 1,
+                                        "instructions": [],
+                                        "questionStatement": "Find the Longest Increasing Subsequence",
+                                        "options": [],
+                                        "answer": ""
+                                    },
+                                    {
+                                        "id": 2,
+                                        "instructions": [],
+                                        "questionStatement": "Find the Longest Increasing Subsequence",
+                                        "options": [],
+                                        "answer": ""
+                                    },
+                                    {
+                                        "id": 3,
+                                        "instructions": [],
+                                        "questionStatement": "Find the Longest Increasing Subsequence",
+                                        "options": [],
+                                        "answer": ""
+                                    },
 
-                                ],
-                                "answers": [
-                                    "answer1",
-                                    "answer2",
-                                    "answer3",
-                                    "answer4",
-                                    "answer5"
-                                ],
-
+                                ]
                             },
                             {
                                 "type": "CodingSets",
                                 "id": 2,
                                 "name": "Practice Set 1",
                                 "questions": [
-                                    "question1",
-                                    "question2",
-                                    "question3",
-                                    "question4",
-                                    "question5"
+                                    {
+                                        "id": 1,
+                                        "instructions": [],
+                                        "questionStatement": "Find the Longest Increasing Subsequence",
+                                        "options": [],
+                                        "solution": "",
+                                        "discussion": [{
+                                            "name": "disucssion-name",
+                                            "comments": []
+                                        }]
+                                    },
+                                    {
+                                        "id": 2,
+                                        "instructions": [],
+                                        "questionStatement": "Find the Longest Increasing Subsequence",
+                                        "options": [],
+                                        "discussions": [],
+                                        "answer": ""
+                                    },
+                                    {
+                                        "id": 3,
+                                        "instructions": [],
+                                        "questionStatement": "Find the Longest Increasing Subsequence",
+                                        "options": [],
+                                        "discussions": [],
+                                        "answer": ""
+                                    },
 
-                                ],
-                                "details": [
-                                    "details1",
-                                    "details2",
-                                    "details3",
-                                    "details4",
-                                    "details5"
-
-                                ],
-                                "submit": "",
-                                "run": "",
-                                "solutions": [
-                                    "solutions1",
-                                    "solutions2",
-                                    "solutions3",
-                                    "solutions4",
-                                    "solutions5"
-                                ],
-                                "discussions": [
-                                    "discussions1",
-                                    "discussions2",
-                                    "discussions3",
-                                    "discussions4",
-                                    "discussions5"
-                                ],
-                                "reset": "",
-                                "save": ""
+                                ]
 
                             },
 
@@ -428,274 +273,115 @@ let dataset = [
                                 "id": 3,
                                 "name": "Practice Set 1",
                                 "questions": [
-                                    "question1",
-                                    "question2",
-                                    "question3",
-                                    "question4",
-                                    "question5"
+                                    {
+                                        "id": 1,
+                                        "instructions": [],
+                                        "questionStatement": "Find the Longest Increasing Subsequence",
+                                        "options": [],
+                                        "solution": "",
+                                        "submissions": [],
+                                        "discussion": [{
+                                            "name": "disucssion-name",
+                                            "comments": []
+                                        }]
+                                    },
+                                    {
+                                        "id": 2,
+                                        "instructions": [],
+                                        "questionStatement": "Find the Longest Increasing Subsequence",
+                                        "options": [],
+                                        "discussions": [],
+                                        "submissions": [],
+                                        "answer": ""
+                                    },
+                                    {
+                                        "id": 3,
+                                        "instructions": [],
+                                        "questionStatement": "Find the Longest Increasing Subsequence",
+                                        "options": [],
+                                        "discussions": [],
+                                        "submissions": [],
+                                        "answer": ""
+                                    },
 
-                                ],
-                                "details": [
-                                    "details1",
-                                    "details2",
-                                    "details3",
-                                    "details4",
-                                    "details5"
+                                ]
 
-                                ],
-                                "submit": "",
-                                "run": "",
-                                "solutions": [
-                                    "solutions1",
-                                    "solutions2",
-                                    "solutions3",
-                                    "solutions4",
-                                    "solutions5"
-                                ],
-                                "discussions": [
-                                    "discussions1",
-                                    "discussions2",
-                                    "discussions3",
-                                    "discussions4",
-                                    "discussions5"
-                                ],
-                                "reset": "",
-                                "save": ""
                             },
-
                             {
                                 "type": "LearningSets",
                                 "id": 4,
                                 "name": "Practice Set 1",
-                                "videodetails": "",
-                                "discussions": [
-                                    "discussions1",
-                                    "discussions2",
-                                    "discussions3",
-                                    "discussions4",
-                                    "discussions5"
-                                ],
-                                "notes": [
-                                    "notes1",
-                                    "notes2",
-                                    "notes3",
-                                    "notes4",
-                                    "notes5"
-                                ],
-                                "completed": "",
-                                "feedback": "",
-                                "doubt": ""
-                            },
+                                "videos": [
+                                    {
+                                        "id": 1,
+                                        "notes": [],
+                                        "details": "",
+                                        "discussion": [{
+                                            "name": "disucssion-name",
+                                            "comments": []
+                                        }]
+                                    },
+                                    {
+                                        "id": 2,
+                                        "instructions": [],
+                                        "questionStatement": "Find the Longest Increasing Subsequence",
+                                        "options": [],
+                                        "discussions": [],
+                                        "answer": ""
+                                    },
+                                    {
+                                        "id": 3,
+                                        "instructions": [],
+                                        "questionStatement": "Find the Longest Increasing Subsequence",
+                                        "options": [],
+                                        "discussions": [],
+                                        "answer": ""
+                                    },
 
+                                ]
+
+                            },
                             {
                                 "type": "PracticeSets",
                                 "id": 5,
                                 "name": "Practice Set 1",
                                 "questions": [
-                                    "question1",
-                                    "question2",
-                                    "question3",
-                                    "question4",
-                                    "question5"
+                                    {
+                                        "id": 1,
+                                        "instructions": [],
+                                        "questionStatement": "Find the Longest Increasing Subsequence",
+                                        "options": [],
+                                        "solution": "",
+                                        "submissions": "",
+                                        "discussion": [{
+                                            "name": "disucssion-name",
+                                            "comments": []
+                                        }]
+                                    },
+                                    {
+                                        "id": 2,
+                                        "instructions": [],
+                                        "questionStatement": "Find the Longest Increasing Subsequence",
+                                        "options": [],
+                                        "submissions": "",
+                                        "discussions": [],
+                                        "answer": ""
+                                    },
+                                    {
+                                        "id": 3,
+                                        "instructions": [],
+                                        "questionStatement": "Find the Longest Increasing Subsequence",
+                                        "options": [],
+                                        "submissions": "",
+                                        "discussions": [],
+                                        "answer": ""
+                                    },
 
-                                ],
-                                "details": [
-                                    "details1",
-                                    "details2",
-                                    "details3",
-                                    "details4",
-                                    "details5"
-
-                                ],
-                                "submit": "",
-                                "run": "",
-                                "solutions": [
-                                    "solutions1",
-                                    "solutions2",
-                                    "solutions3",
-                                    "solutions4",
-                                    "solutions5"
-                                ],
-                                "discussions": [
-                                    "discussions1",
-                                    "discussions2",
-                                    "discussions3",
-                                    "discussions4",
-                                    "discussions5"
-                                ],
-                                "reset": "",
-                                "save": ""
-
-                            },
-                            {
-                                "id": 6,
-                                "name": "Practice Set 1",
-                                "type": "McqSets",
-                                "instructions": [
-                                    "instruction1", "instruction2", "instruction3"
-                                ],
-                                "questions": [
-                                    "question1",
-                                    "question2",
-                                    "question3",
-                                    "question4",
-                                    "question5"
-
-                                ],
-                                "answers": [
-                                    "answer1",
-                                    "answer2",
-                                    "answer3",
-                                    "answer4",
-                                    "answer5"
-                                ],
-
-                            },
-                            {
-                                "type": "CodingSets",
-                                "id": 7,
-                                "name": "Practice Set 1",
-                                "questions": [
-                                    "question1",
-                                    "question2",
-                                    "question3",
-                                    "question4",
-                                    "question5"
-
-                                ],
-                                "details": [
-                                    "details1",
-                                    "details2",
-                                    "details3",
-                                    "details4",
-                                    "details5"
-
-                                ],
-                                "submit": "",
-                                "run": "",
-                                "solutions": [
-                                    "solutions1",
-                                    "solutions2",
-                                    "solutions3",
-                                    "solutions4",
-                                    "solutions5"
-                                ],
-                                "discussions": [
-                                    "discussions1",
-                                    "discussions2",
-                                    "discussions3",
-                                    "discussions4",
-                                    "discussions5"
-                                ],
-                                "reset": "",
-                                "save": ""
+                                ]
 
                             },
 
-                            {
-                                "type": "AssignmentSets",
-                                "id": 8,
-                                "name": "Practice Set 1",
-                                "questions": [
-                                    "question1",
-                                    "question2",
-                                    "question3",
-                                    "question4",
-                                    "question5"
 
-                                ],
-                                "details": [
-                                    "details1",
-                                    "details2",
-                                    "details3",
-                                    "details4",
-                                    "details5"
-
-                                ],
-                                "submit": "",
-                                "run": "",
-                                "solutions": [
-                                    "solutions1",
-                                    "solutions2",
-                                    "solutions3",
-                                    "solutions4",
-                                    "solutions5"
-                                ],
-                                "discussions": [
-                                    "discussions1",
-                                    "discussions2",
-                                    "discussions3",
-                                    "discussions4",
-                                    "discussions5"
-                                ],
-                                "reset": "",
-                                "save": ""
-                            },
-
-                            {
-                                "type": "LearningSets",
-                                "id": 9,
-                                "name": "Practice Set 1",
-                                "videodetails": "",
-                                "discussions": [
-                                    "discussions1",
-                                    "discussions2",
-                                    "discussions3",
-                                    "discussions4",
-                                    "discussions5"
-                                ],
-                                "notes": [
-                                    "notes1",
-                                    "notes2",
-                                    "notes3",
-                                    "notes4",
-                                    "notes5"
-                                ],
-                                "completed": "",
-                                "feedback": "",
-                                "doubt": ""
-                            },
-
-                            {
-                                "type": "PracticeSets",
-                                "id": 10,
-                                "name": "Practice Set 1",
-                                "questions": [
-                                    "question1",
-                                    "question2",
-                                    "question3",
-                                    "question4",
-                                    "question5"
-
-                                ],
-                                "details": [
-                                    "details1",
-                                    "details2",
-                                    "details3",
-                                    "details4",
-                                    "details5"
-
-                                ],
-                                "submit": "",
-                                "run": "",
-                                "solutions": [
-                                    "solutions1",
-                                    "solutions2",
-                                    "solutions3",
-                                    "solutions4",
-                                    "solutions5"
-                                ],
-                                "discussions": [
-                                    "discussions1",
-                                    "discussions2",
-                                    "discussions3",
-                                    "discussions4",
-                                    "discussions5"
-                                ],
-                                "reset": "",
-                                "save": ""
-
-                            },
                         ]
                     }
                     ,
@@ -707,64 +393,66 @@ let dataset = [
                                 "id": 1,
                                 "name": "Practice Set 1",
                                 "type": "McqSets",
-                                "instructions": [
-                                    "instruction1", "instruction2", "instruction3"
-                                ],
+
                                 "questions": [
-                                    "question1",
-                                    "question2",
-                                    "question3",
-                                    "question4",
-                                    "question5"
+                                    {
+                                        "id": 1,
+                                        "instructions": [],
+                                        "questionStatement": "Find the Longest Increasing Subsequence",
+                                        "options": [],
+                                        "answer": ""
+                                    },
+                                    {
+                                        "id": 2,
+                                        "instructions": [],
+                                        "questionStatement": "Find the Longest Increasing Subsequence",
+                                        "options": [],
+                                        "answer": ""
+                                    },
+                                    {
+                                        "id": 3,
+                                        "instructions": [],
+                                        "questionStatement": "Find the Longest Increasing Subsequence",
+                                        "options": [],
+                                        "answer": ""
+                                    },
 
-                                ],
-                                "answers": [
-                                    "answer1",
-                                    "answer2",
-                                    "answer3",
-                                    "answer4",
-                                    "answer5"
-                                ],
-
+                                ]
                             },
                             {
                                 "type": "CodingSets",
                                 "id": 2,
                                 "name": "Practice Set 1",
                                 "questions": [
-                                    "question1",
-                                    "question2",
-                                    "question3",
-                                    "question4",
-                                    "question5"
+                                    {
+                                        "id": 1,
+                                        "instructions": [],
+                                        "questionStatement": "Find the Longest Increasing Subsequence",
+                                        "options": [],
+                                        "solution": "",
+                                        "discussion": [{
+                                            "name": "disucssion-name",
+                                            "comments": []
+                                        }]
+                                    },
+                                    {
+                                        "id": 2,
+                                        "instructions": [],
+                                        "questionStatement": "Find the Longest Increasing Subsequence",
+                                        "options": [],
+                                        "discussions": [],
+                                        "answer": ""
+                                    },
+                                    {
+                                        "id": 3,
+                                        "instructions": [],
+                                        "questionStatement": "Find the Longest Increasing Subsequence",
+                                        "options": [],
+                                        "discussions": [],
+                                        "answer": ""
+                                    },
 
-                                ],
-                                "details": [
-                                    "details1",
-                                    "details2",
-                                    "details3",
-                                    "details4",
-                                    "details5"
-
-                                ],
-                                "submit": "",
-                                "run": "",
-                                "solutions": [
-                                    "solutions1",
-                                    "solutions2",
-                                    "solutions3",
-                                    "solutions4",
-                                    "solutions5"
-                                ],
-                                "discussions": [
-                                    "discussions1",
-                                    "discussions2",
-                                    "discussions3",
-                                    "discussions4",
-                                    "discussions5"
-                                ],
-                                "reset": "",
-                                "save": ""
+                                ]
 
                             },
 
@@ -773,274 +461,115 @@ let dataset = [
                                 "id": 3,
                                 "name": "Practice Set 1",
                                 "questions": [
-                                    "question1",
-                                    "question2",
-                                    "question3",
-                                    "question4",
-                                    "question5"
+                                    {
+                                        "id": 1,
+                                        "instructions": [],
+                                        "questionStatement": "Find the Longest Increasing Subsequence",
+                                        "options": [],
+                                        "solution": "",
+                                        "submissions": [],
+                                        "discussion": [{
+                                            "name": "disucssion-name",
+                                            "comments": []
+                                        }]
+                                    },
+                                    {
+                                        "id": 2,
+                                        "instructions": [],
+                                        "questionStatement": "Find the Longest Increasing Subsequence",
+                                        "options": [],
+                                        "discussions": [],
+                                        "submissions": [],
+                                        "answer": ""
+                                    },
+                                    {
+                                        "id": 3,
+                                        "instructions": [],
+                                        "questionStatement": "Find the Longest Increasing Subsequence",
+                                        "options": [],
+                                        "discussions": [],
+                                        "submissions": [],
+                                        "answer": ""
+                                    },
 
-                                ],
-                                "details": [
-                                    "details1",
-                                    "details2",
-                                    "details3",
-                                    "details4",
-                                    "details5"
+                                ]
 
-                                ],
-                                "submit": "",
-                                "run": "",
-                                "solutions": [
-                                    "solutions1",
-                                    "solutions2",
-                                    "solutions3",
-                                    "solutions4",
-                                    "solutions5"
-                                ],
-                                "discussions": [
-                                    "discussions1",
-                                    "discussions2",
-                                    "discussions3",
-                                    "discussions4",
-                                    "discussions5"
-                                ],
-                                "reset": "",
-                                "save": ""
                             },
-
                             {
                                 "type": "LearningSets",
                                 "id": 4,
                                 "name": "Practice Set 1",
-                                "videodetails": "",
-                                "discussions": [
-                                    "discussions1",
-                                    "discussions2",
-                                    "discussions3",
-                                    "discussions4",
-                                    "discussions5"
-                                ],
-                                "notes": [
-                                    "notes1",
-                                    "notes2",
-                                    "notes3",
-                                    "notes4",
-                                    "notes5"
-                                ],
-                                "completed": "",
-                                "feedback": "",
-                                "doubt": ""
-                            },
+                                "videos": [
+                                    {
+                                        "id": 1,
+                                        "notes": [],
+                                        "details": "",
+                                        "discussion": [{
+                                            "name": "disucssion-name",
+                                            "comments": []
+                                        }]
+                                    },
+                                    {
+                                        "id": 2,
+                                        "instructions": [],
+                                        "questionStatement": "Find the Longest Increasing Subsequence",
+                                        "options": [],
+                                        "discussions": [],
+                                        "answer": ""
+                                    },
+                                    {
+                                        "id": 3,
+                                        "instructions": [],
+                                        "questionStatement": "Find the Longest Increasing Subsequence",
+                                        "options": [],
+                                        "discussions": [],
+                                        "answer": ""
+                                    },
 
+                                ]
+
+                            },
                             {
                                 "type": "PracticeSets",
                                 "id": 5,
                                 "name": "Practice Set 1",
                                 "questions": [
-                                    "question1",
-                                    "question2",
-                                    "question3",
-                                    "question4",
-                                    "question5"
+                                    {
+                                        "id": 1,
+                                        "instructions": [],
+                                        "questionStatement": "Find the Longest Increasing Subsequence",
+                                        "options": [],
+                                        "solution": "",
+                                        "submissions": "",
+                                        "discussion": [{
+                                            "name": "disucssion-name",
+                                            "comments": []
+                                        }]
+                                    },
+                                    {
+                                        "id": 2,
+                                        "instructions": [],
+                                        "questionStatement": "Find the Longest Increasing Subsequence",
+                                        "options": [],
+                                        "submissions": "",
+                                        "discussions": [],
+                                        "answer": ""
+                                    },
+                                    {
+                                        "id": 3,
+                                        "instructions": [],
+                                        "questionStatement": "Find the Longest Increasing Subsequence",
+                                        "options": [],
+                                        "submissions": "",
+                                        "discussions": [],
+                                        "answer": ""
+                                    },
 
-                                ],
-                                "details": [
-                                    "details1",
-                                    "details2",
-                                    "details3",
-                                    "details4",
-                                    "details5"
-
-                                ],
-                                "submit": "",
-                                "run": "",
-                                "solutions": [
-                                    "solutions1",
-                                    "solutions2",
-                                    "solutions3",
-                                    "solutions4",
-                                    "solutions5"
-                                ],
-                                "discussions": [
-                                    "discussions1",
-                                    "discussions2",
-                                    "discussions3",
-                                    "discussions4",
-                                    "discussions5"
-                                ],
-                                "reset": "",
-                                "save": ""
-
-                            },
-                            {
-                                "id": 6,
-                                "name": "Practice Set 1",
-                                "type": "McqSets",
-                                "instructions": [
-                                    "instruction1", "instruction2", "instruction3"
-                                ],
-                                "questions": [
-                                    "question1",
-                                    "question2",
-                                    "question3",
-                                    "question4",
-                                    "question5"
-
-                                ],
-                                "answers": [
-                                    "answer1",
-                                    "answer2",
-                                    "answer3",
-                                    "answer4",
-                                    "answer5"
-                                ],
-
-                            },
-                            {
-                                "type": "CodingSets",
-                                "id": 7,
-                                "name": "Practice Set 1",
-                                "questions": [
-                                    "question1",
-                                    "question2",
-                                    "question3",
-                                    "question4",
-                                    "question5"
-
-                                ],
-                                "details": [
-                                    "details1",
-                                    "details2",
-                                    "details3",
-                                    "details4",
-                                    "details5"
-
-                                ],
-                                "submit": "",
-                                "run": "",
-                                "solutions": [
-                                    "solutions1",
-                                    "solutions2",
-                                    "solutions3",
-                                    "solutions4",
-                                    "solutions5"
-                                ],
-                                "discussions": [
-                                    "discussions1",
-                                    "discussions2",
-                                    "discussions3",
-                                    "discussions4",
-                                    "discussions5"
-                                ],
-                                "reset": "",
-                                "save": ""
+                                ]
 
                             },
 
-                            {
-                                "type": "AssignmentSets",
-                                "id": 8,
-                                "name": "Practice Set 1",
-                                "questions": [
-                                    "question1",
-                                    "question2",
-                                    "question3",
-                                    "question4",
-                                    "question5"
 
-                                ],
-                                "details": [
-                                    "details1",
-                                    "details2",
-                                    "details3",
-                                    "details4",
-                                    "details5"
-
-                                ],
-                                "submit": "",
-                                "run": "",
-                                "solutions": [
-                                    "solutions1",
-                                    "solutions2",
-                                    "solutions3",
-                                    "solutions4",
-                                    "solutions5"
-                                ],
-                                "discussions": [
-                                    "discussions1",
-                                    "discussions2",
-                                    "discussions3",
-                                    "discussions4",
-                                    "discussions5"
-                                ],
-                                "reset": "",
-                                "save": ""
-                            },
-
-                            {
-                                "type": "LearningSets",
-                                "id": 9,
-                                "name": "Practice Set 1",
-                                "videodetails": "",
-                                "discussions": [
-                                    "discussions1",
-                                    "discussions2",
-                                    "discussions3",
-                                    "discussions4",
-                                    "discussions5"
-                                ],
-                                "notes": [
-                                    "notes1",
-                                    "notes2",
-                                    "notes3",
-                                    "notes4",
-                                    "notes5"
-                                ],
-                                "completed": "",
-                                "feedback": "",
-                                "doubt": ""
-                            },
-
-                            {
-                                "type": "PracticeSets",
-                                "id": 10,
-                                "name": "Practice Set 1",
-                                "questions": [
-                                    "question1",
-                                    "question2",
-                                    "question3",
-                                    "question4",
-                                    "question5"
-
-                                ],
-                                "details": [
-                                    "details1",
-                                    "details2",
-                                    "details3",
-                                    "details4",
-                                    "details5"
-
-                                ],
-                                "submit": "",
-                                "run": "",
-                                "solutions": [
-                                    "solutions1",
-                                    "solutions2",
-                                    "solutions3",
-                                    "solutions4",
-                                    "solutions5"
-                                ],
-                                "discussions": [
-                                    "discussions1",
-                                    "discussions2",
-                                    "discussions3",
-                                    "discussions4",
-                                    "discussions5"
-                                ],
-                                "reset": "",
-                                "save": ""
-
-                            },
                         ]
                     }
 
@@ -1053,64 +582,66 @@ let dataset = [
                                 "id": 1,
                                 "name": "Practice Set 1",
                                 "type": "McqSets",
-                                "instructions": [
-                                    "instruction1", "instruction2", "instruction3"
-                                ],
+
                                 "questions": [
-                                    "question1",
-                                    "question2",
-                                    "question3",
-                                    "question4",
-                                    "question5"
+                                    {
+                                        "id": 1,
+                                        "instructions": [],
+                                        "questionStatement": "Find the Longest Increasing Subsequence",
+                                        "options": [],
+                                        "answer": ""
+                                    },
+                                    {
+                                        "id": 2,
+                                        "instructions": [],
+                                        "questionStatement": "Find the Longest Increasing Subsequence",
+                                        "options": [],
+                                        "answer": ""
+                                    },
+                                    {
+                                        "id": 3,
+                                        "instructions": [],
+                                        "questionStatement": "Find the Longest Increasing Subsequence",
+                                        "options": [],
+                                        "answer": ""
+                                    },
 
-                                ],
-                                "answers": [
-                                    "answer1",
-                                    "answer2",
-                                    "answer3",
-                                    "answer4",
-                                    "answer5"
-                                ],
-
+                                ]
                             },
                             {
                                 "type": "CodingSets",
                                 "id": 2,
                                 "name": "Practice Set 1",
                                 "questions": [
-                                    "question1",
-                                    "question2",
-                                    "question3",
-                                    "question4",
-                                    "question5"
+                                    {
+                                        "id": 1,
+                                        "instructions": [],
+                                        "questionStatement": "Find the Longest Increasing Subsequence",
+                                        "options": [],
+                                        "solution": "",
+                                        "discussion": [{
+                                            "name": "disucssion-name",
+                                            "comments": []
+                                        }]
+                                    },
+                                    {
+                                        "id": 2,
+                                        "instructions": [],
+                                        "questionStatement": "Find the Longest Increasing Subsequence",
+                                        "options": [],
+                                        "discussions": [],
+                                        "answer": ""
+                                    },
+                                    {
+                                        "id": 3,
+                                        "instructions": [],
+                                        "questionStatement": "Find the Longest Increasing Subsequence",
+                                        "options": [],
+                                        "discussions": [],
+                                        "answer": ""
+                                    },
 
-                                ],
-                                "details": [
-                                    "details1",
-                                    "details2",
-                                    "details3",
-                                    "details4",
-                                    "details5"
-
-                                ],
-                                "submit": "",
-                                "run": "",
-                                "solutions": [
-                                    "solutions1",
-                                    "solutions2",
-                                    "solutions3",
-                                    "solutions4",
-                                    "solutions5"
-                                ],
-                                "discussions": [
-                                    "discussions1",
-                                    "discussions2",
-                                    "discussions3",
-                                    "discussions4",
-                                    "discussions5"
-                                ],
-                                "reset": "",
-                                "save": ""
+                                ]
 
                             },
 
@@ -1119,274 +650,115 @@ let dataset = [
                                 "id": 3,
                                 "name": "Practice Set 1",
                                 "questions": [
-                                    "question1",
-                                    "question2",
-                                    "question3",
-                                    "question4",
-                                    "question5"
+                                    {
+                                        "id": 1,
+                                        "instructions": [],
+                                        "questionStatement": "Find the Longest Increasing Subsequence",
+                                        "options": [],
+                                        "solution": "",
+                                        "submissions": [],
+                                        "discussion": [{
+                                            "name": "disucssion-name",
+                                            "comments": []
+                                        }]
+                                    },
+                                    {
+                                        "id": 2,
+                                        "instructions": [],
+                                        "questionStatement": "Find the Longest Increasing Subsequence",
+                                        "options": [],
+                                        "discussions": [],
+                                        "submissions": [],
+                                        "answer": ""
+                                    },
+                                    {
+                                        "id": 3,
+                                        "instructions": [],
+                                        "questionStatement": "Find the Longest Increasing Subsequence",
+                                        "options": [],
+                                        "discussions": [],
+                                        "submissions": [],
+                                        "answer": ""
+                                    },
 
-                                ],
-                                "details": [
-                                    "details1",
-                                    "details2",
-                                    "details3",
-                                    "details4",
-                                    "details5"
+                                ]
 
-                                ],
-                                "submit": "",
-                                "run": "",
-                                "solutions": [
-                                    "solutions1",
-                                    "solutions2",
-                                    "solutions3",
-                                    "solutions4",
-                                    "solutions5"
-                                ],
-                                "discussions": [
-                                    "discussions1",
-                                    "discussions2",
-                                    "discussions3",
-                                    "discussions4",
-                                    "discussions5"
-                                ],
-                                "reset": "",
-                                "save": ""
                             },
-
                             {
                                 "type": "LearningSets",
                                 "id": 4,
                                 "name": "Practice Set 1",
-                                "videodetails": "",
-                                "discussions": [
-                                    "discussions1",
-                                    "discussions2",
-                                    "discussions3",
-                                    "discussions4",
-                                    "discussions5"
-                                ],
-                                "notes": [
-                                    "notes1",
-                                    "notes2",
-                                    "notes3",
-                                    "notes4",
-                                    "notes5"
-                                ],
-                                "completed": "",
-                                "feedback": "",
-                                "doubt": ""
-                            },
+                                "videos": [
+                                    {
+                                        "id": 1,
+                                        "notes": [],
+                                        "details": "",
+                                        "discussion": [{
+                                            "name": "disucssion-name",
+                                            "comments": []
+                                        }]
+                                    },
+                                    {
+                                        "id": 2,
+                                        "instructions": [],
+                                        "questionStatement": "Find the Longest Increasing Subsequence",
+                                        "options": [],
+                                        "discussions": [],
+                                        "answer": ""
+                                    },
+                                    {
+                                        "id": 3,
+                                        "instructions": [],
+                                        "questionStatement": "Find the Longest Increasing Subsequence",
+                                        "options": [],
+                                        "discussions": [],
+                                        "answer": ""
+                                    },
 
+                                ]
+
+                            },
                             {
                                 "type": "PracticeSets",
                                 "id": 5,
                                 "name": "Practice Set 1",
                                 "questions": [
-                                    "question1",
-                                    "question2",
-                                    "question3",
-                                    "question4",
-                                    "question5"
+                                    {
+                                        "id": 1,
+                                        "instructions": [],
+                                        "questionStatement": "Find the Longest Increasing Subsequence",
+                                        "options": [],
+                                        "solution": "",
+                                        "submissions": "",
+                                        "discussion": [{
+                                            "name": "disucssion-name",
+                                            "comments": []
+                                        }]
+                                    },
+                                    {
+                                        "id": 2,
+                                        "instructions": [],
+                                        "questionStatement": "Find the Longest Increasing Subsequence",
+                                        "options": [],
+                                        "submissions": "",
+                                        "discussions": [],
+                                        "answer": ""
+                                    },
+                                    {
+                                        "id": 3,
+                                        "instructions": [],
+                                        "questionStatement": "Find the Longest Increasing Subsequence",
+                                        "options": [],
+                                        "submissions": "",
+                                        "discussions": [],
+                                        "answer": ""
+                                    },
 
-                                ],
-                                "details": [
-                                    "details1",
-                                    "details2",
-                                    "details3",
-                                    "details4",
-                                    "details5"
-
-                                ],
-                                "submit": "",
-                                "run": "",
-                                "solutions": [
-                                    "solutions1",
-                                    "solutions2",
-                                    "solutions3",
-                                    "solutions4",
-                                    "solutions5"
-                                ],
-                                "discussions": [
-                                    "discussions1",
-                                    "discussions2",
-                                    "discussions3",
-                                    "discussions4",
-                                    "discussions5"
-                                ],
-                                "reset": "",
-                                "save": ""
-
-                            },
-                            {
-                                "id": 6,
-                                "name": "Practice Set 1",
-                                "type": "McqSets",
-                                "instructions": [
-                                    "instruction1", "instruction2", "instruction3"
-                                ],
-                                "questions": [
-                                    "question1",
-                                    "question2",
-                                    "question3",
-                                    "question4",
-                                    "question5"
-
-                                ],
-                                "answers": [
-                                    "answer1",
-                                    "answer2",
-                                    "answer3",
-                                    "answer4",
-                                    "answer5"
-                                ],
-
-                            },
-                            {
-                                "type": "CodingSets",
-                                "id": 7,
-                                "name": "Practice Set 1",
-                                "questions": [
-                                    "question1",
-                                    "question2",
-                                    "question3",
-                                    "question4",
-                                    "question5"
-
-                                ],
-                                "details": [
-                                    "details1",
-                                    "details2",
-                                    "details3",
-                                    "details4",
-                                    "details5"
-
-                                ],
-                                "submit": "",
-                                "run": "",
-                                "solutions": [
-                                    "solutions1",
-                                    "solutions2",
-                                    "solutions3",
-                                    "solutions4",
-                                    "solutions5"
-                                ],
-                                "discussions": [
-                                    "discussions1",
-                                    "discussions2",
-                                    "discussions3",
-                                    "discussions4",
-                                    "discussions5"
-                                ],
-                                "reset": "",
-                                "save": ""
+                                ]
 
                             },
 
-                            {
-                                "type": "AssignmentSets",
-                                "id": 8,
-                                "name": "Practice Set 1",
-                                "questions": [
-                                    "question1",
-                                    "question2",
-                                    "question3",
-                                    "question4",
-                                    "question5"
 
-                                ],
-                                "details": [
-                                    "details1",
-                                    "details2",
-                                    "details3",
-                                    "details4",
-                                    "details5"
-
-                                ],
-                                "submit": "",
-                                "run": "",
-                                "solutions": [
-                                    "solutions1",
-                                    "solutions2",
-                                    "solutions3",
-                                    "solutions4",
-                                    "solutions5"
-                                ],
-                                "discussions": [
-                                    "discussions1",
-                                    "discussions2",
-                                    "discussions3",
-                                    "discussions4",
-                                    "discussions5"
-                                ],
-                                "reset": "",
-                                "save": ""
-                            },
-
-                            {
-                                "type": "LearningSets",
-                                "id": 9,
-                                "name": "Practice Set 1",
-                                "videodetails": "",
-                                "discussions": [
-                                    "discussions1",
-                                    "discussions2",
-                                    "discussions3",
-                                    "discussions4",
-                                    "discussions5"
-                                ],
-                                "notes": [
-                                    "notes1",
-                                    "notes2",
-                                    "notes3",
-                                    "notes4",
-                                    "notes5"
-                                ],
-                                "completed": "",
-                                "feedback": "",
-                                "doubt": ""
-                            },
-
-                            {
-                                "type": "PracticeSets",
-                                "id": 10,
-                                "name": "Practice Set 1",
-                                "questions": [
-                                    "question1",
-                                    "question2",
-                                    "question3",
-                                    "question4",
-                                    "question5"
-
-                                ],
-                                "details": [
-                                    "details1",
-                                    "details2",
-                                    "details3",
-                                    "details4",
-                                    "details5"
-
-                                ],
-                                "submit": "",
-                                "run": "",
-                                "solutions": [
-                                    "solutions1",
-                                    "solutions2",
-                                    "solutions3",
-                                    "solutions4",
-                                    "solutions5"
-                                ],
-                                "discussions": [
-                                    "discussions1",
-                                    "discussions2",
-                                    "discussions3",
-                                    "discussions4",
-                                    "discussions5"
-                                ],
-                                "reset": "",
-                                "save": ""
-
-                            },
                         ]
                     }
 
@@ -1410,64 +782,66 @@ let dataset = [
                                 "id": 1,
                                 "name": "Practice Set 1",
                                 "type": "McqSets",
-                                "instructions": [
-                                    "instruction1", "instruction2", "instruction3"
-                                ],
+
                                 "questions": [
-                                    "question1",
-                                    "question2",
-                                    "question3",
-                                    "question4",
-                                    "question5"
+                                    {
+                                        "id": 1,
+                                        "instructions": [],
+                                        "questionStatement": "Find the Longest Increasing Subsequence",
+                                        "options": [],
+                                        "answer": ""
+                                    },
+                                    {
+                                        "id": 2,
+                                        "instructions": [],
+                                        "questionStatement": "Find the Longest Increasing Subsequence",
+                                        "options": [],
+                                        "answer": ""
+                                    },
+                                    {
+                                        "id": 3,
+                                        "instructions": [],
+                                        "questionStatement": "Find the Longest Increasing Subsequence",
+                                        "options": [],
+                                        "answer": ""
+                                    },
 
-                                ],
-                                "answers": [
-                                    "answer1",
-                                    "answer2",
-                                    "answer3",
-                                    "answer4",
-                                    "answer5"
-                                ],
-
+                                ]
                             },
                             {
                                 "type": "CodingSets",
                                 "id": 2,
                                 "name": "Practice Set 1",
                                 "questions": [
-                                    "question1",
-                                    "question2",
-                                    "question3",
-                                    "question4",
-                                    "question5"
+                                    {
+                                        "id": 1,
+                                        "instructions": [],
+                                        "questionStatement": "Find the Longest Increasing Subsequence",
+                                        "options": [],
+                                        "solution": "",
+                                        "discussion": [{
+                                            "name": "disucssion-name",
+                                            "comments": []
+                                        }]
+                                    },
+                                    {
+                                        "id": 2,
+                                        "instructions": [],
+                                        "questionStatement": "Find the Longest Increasing Subsequence",
+                                        "options": [],
+                                        "discussions": [],
+                                        "answer": ""
+                                    },
+                                    {
+                                        "id": 3,
+                                        "instructions": [],
+                                        "questionStatement": "Find the Longest Increasing Subsequence",
+                                        "options": [],
+                                        "discussions": [],
+                                        "answer": ""
+                                    },
 
-                                ],
-                                "details": [
-                                    "details1",
-                                    "details2",
-                                    "details3",
-                                    "details4",
-                                    "details5"
-
-                                ],
-                                "submit": "",
-                                "run": "",
-                                "solutions": [
-                                    "solutions1",
-                                    "solutions2",
-                                    "solutions3",
-                                    "solutions4",
-                                    "solutions5"
-                                ],
-                                "discussions": [
-                                    "discussions1",
-                                    "discussions2",
-                                    "discussions3",
-                                    "discussions4",
-                                    "discussions5"
-                                ],
-                                "reset": "",
-                                "save": ""
+                                ]
 
                             },
 
@@ -1476,274 +850,115 @@ let dataset = [
                                 "id": 3,
                                 "name": "Practice Set 1",
                                 "questions": [
-                                    "question1",
-                                    "question2",
-                                    "question3",
-                                    "question4",
-                                    "question5"
+                                    {
+                                        "id": 1,
+                                        "instructions": [],
+                                        "questionStatement": "Find the Longest Increasing Subsequence",
+                                        "options": [],
+                                        "solution": "",
+                                        "submissions": [],
+                                        "discussion": [{
+                                            "name": "disucssion-name",
+                                            "comments": []
+                                        }]
+                                    },
+                                    {
+                                        "id": 2,
+                                        "instructions": [],
+                                        "questionStatement": "Find the Longest Increasing Subsequence",
+                                        "options": [],
+                                        "discussions": [],
+                                        "submissions": [],
+                                        "answer": ""
+                                    },
+                                    {
+                                        "id": 3,
+                                        "instructions": [],
+                                        "questionStatement": "Find the Longest Increasing Subsequence",
+                                        "options": [],
+                                        "discussions": [],
+                                        "submissions": [],
+                                        "answer": ""
+                                    },
 
-                                ],
-                                "details": [
-                                    "details1",
-                                    "details2",
-                                    "details3",
-                                    "details4",
-                                    "details5"
+                                ]
 
-                                ],
-                                "submit": "",
-                                "run": "",
-                                "solutions": [
-                                    "solutions1",
-                                    "solutions2",
-                                    "solutions3",
-                                    "solutions4",
-                                    "solutions5"
-                                ],
-                                "discussions": [
-                                    "discussions1",
-                                    "discussions2",
-                                    "discussions3",
-                                    "discussions4",
-                                    "discussions5"
-                                ],
-                                "reset": "",
-                                "save": ""
                             },
-
                             {
                                 "type": "LearningSets",
                                 "id": 4,
                                 "name": "Practice Set 1",
-                                "videodetails": "",
-                                "discussions": [
-                                    "discussions1",
-                                    "discussions2",
-                                    "discussions3",
-                                    "discussions4",
-                                    "discussions5"
-                                ],
-                                "notes": [
-                                    "notes1",
-                                    "notes2",
-                                    "notes3",
-                                    "notes4",
-                                    "notes5"
-                                ],
-                                "completed": "",
-                                "feedback": "",
-                                "doubt": ""
-                            },
+                                "videos": [
+                                    {
+                                        "id": 1,
+                                        "notes": [],
+                                        "details": "",
+                                        "discussion": [{
+                                            "name": "disucssion-name",
+                                            "comments": []
+                                        }]
+                                    },
+                                    {
+                                        "id": 2,
+                                        "instructions": [],
+                                        "questionStatement": "Find the Longest Increasing Subsequence",
+                                        "options": [],
+                                        "discussions": [],
+                                        "answer": ""
+                                    },
+                                    {
+                                        "id": 3,
+                                        "instructions": [],
+                                        "questionStatement": "Find the Longest Increasing Subsequence",
+                                        "options": [],
+                                        "discussions": [],
+                                        "answer": ""
+                                    },
 
+                                ]
+
+                            },
                             {
                                 "type": "PracticeSets",
                                 "id": 5,
                                 "name": "Practice Set 1",
                                 "questions": [
-                                    "question1",
-                                    "question2",
-                                    "question3",
-                                    "question4",
-                                    "question5"
+                                    {
+                                        "id": 1,
+                                        "instructions": [],
+                                        "questionStatement": "Find the Longest Increasing Subsequence",
+                                        "options": [],
+                                        "solution": "",
+                                        "submissions": "",
+                                        "discussion": [{
+                                            "name": "disucssion-name",
+                                            "comments": []
+                                        }]
+                                    },
+                                    {
+                                        "id": 2,
+                                        "instructions": [],
+                                        "questionStatement": "Find the Longest Increasing Subsequence",
+                                        "options": [],
+                                        "submissions": "",
+                                        "discussions": [],
+                                        "answer": ""
+                                    },
+                                    {
+                                        "id": 3,
+                                        "instructions": [],
+                                        "questionStatement": "Find the Longest Increasing Subsequence",
+                                        "options": [],
+                                        "submissions": "",
+                                        "discussions": [],
+                                        "answer": ""
+                                    },
 
-                                ],
-                                "details": [
-                                    "details1",
-                                    "details2",
-                                    "details3",
-                                    "details4",
-                                    "details5"
-
-                                ],
-                                "submit": "",
-                                "run": "",
-                                "solutions": [
-                                    "solutions1",
-                                    "solutions2",
-                                    "solutions3",
-                                    "solutions4",
-                                    "solutions5"
-                                ],
-                                "discussions": [
-                                    "discussions1",
-                                    "discussions2",
-                                    "discussions3",
-                                    "discussions4",
-                                    "discussions5"
-                                ],
-                                "reset": "",
-                                "save": ""
-
-                            },
-                            {
-                                "id": 6,
-                                "name": "Practice Set 1",
-                                "type": "McqSets",
-                                "instructions": [
-                                    "instruction1", "instruction2", "instruction3"
-                                ],
-                                "questions": [
-                                    "question1",
-                                    "question2",
-                                    "question3",
-                                    "question4",
-                                    "question5"
-
-                                ],
-                                "answers": [
-                                    "answer1",
-                                    "answer2",
-                                    "answer3",
-                                    "answer4",
-                                    "answer5"
-                                ],
-
-                            },
-                            {
-                                "type": "CodingSets",
-                                "id": 7,
-                                "name": "Practice Set 1",
-                                "questions": [
-                                    "question1",
-                                    "question2",
-                                    "question3",
-                                    "question4",
-                                    "question5"
-
-                                ],
-                                "details": [
-                                    "details1",
-                                    "details2",
-                                    "details3",
-                                    "details4",
-                                    "details5"
-
-                                ],
-                                "submit": "",
-                                "run": "",
-                                "solutions": [
-                                    "solutions1",
-                                    "solutions2",
-                                    "solutions3",
-                                    "solutions4",
-                                    "solutions5"
-                                ],
-                                "discussions": [
-                                    "discussions1",
-                                    "discussions2",
-                                    "discussions3",
-                                    "discussions4",
-                                    "discussions5"
-                                ],
-                                "reset": "",
-                                "save": ""
+                                ]
 
                             },
 
-                            {
-                                "type": "AssignmentSets",
-                                "id": 8,
-                                "name": "Practice Set 1",
-                                "questions": [
-                                    "question1",
-                                    "question2",
-                                    "question3",
-                                    "question4",
-                                    "question5"
 
-                                ],
-                                "details": [
-                                    "details1",
-                                    "details2",
-                                    "details3",
-                                    "details4",
-                                    "details5"
-
-                                ],
-                                "submit": "",
-                                "run": "",
-                                "solutions": [
-                                    "solutions1",
-                                    "solutions2",
-                                    "solutions3",
-                                    "solutions4",
-                                    "solutions5"
-                                ],
-                                "discussions": [
-                                    "discussions1",
-                                    "discussions2",
-                                    "discussions3",
-                                    "discussions4",
-                                    "discussions5"
-                                ],
-                                "reset": "",
-                                "save": ""
-                            },
-
-                            {
-                                "type": "LearningSets",
-                                "id": 9,
-                                "name": "Practice Set 1",
-                                "videodetails": "",
-                                "discussions": [
-                                    "discussions1",
-                                    "discussions2",
-                                    "discussions3",
-                                    "discussions4",
-                                    "discussions5"
-                                ],
-                                "notes": [
-                                    "notes1",
-                                    "notes2",
-                                    "notes3",
-                                    "notes4",
-                                    "notes5"
-                                ],
-                                "completed": "",
-                                "feedback": "",
-                                "doubt": ""
-                            },
-
-                            {
-                                "type": "PracticeSets",
-                                "id": 10,
-                                "name": "Practice Set 1",
-                                "questions": [
-                                    "question1",
-                                    "question2",
-                                    "question3",
-                                    "question4",
-                                    "question5"
-
-                                ],
-                                "details": [
-                                    "details1",
-                                    "details2",
-                                    "details3",
-                                    "details4",
-                                    "details5"
-
-                                ],
-                                "submit": "",
-                                "run": "",
-                                "solutions": [
-                                    "solutions1",
-                                    "solutions2",
-                                    "solutions3",
-                                    "solutions4",
-                                    "solutions5"
-                                ],
-                                "discussions": [
-                                    "discussions1",
-                                    "discussions2",
-                                    "discussions3",
-                                    "discussions4",
-                                    "discussions5"
-                                ],
-                                "reset": "",
-                                "save": ""
-
-                            },
                         ]
                     }
                     ,
@@ -1755,64 +970,66 @@ let dataset = [
                                 "id": 1,
                                 "name": "Practice Set 1",
                                 "type": "McqSets",
-                                "instructions": [
-                                    "instruction1", "instruction2", "instruction3"
-                                ],
+
                                 "questions": [
-                                    "question1",
-                                    "question2",
-                                    "question3",
-                                    "question4",
-                                    "question5"
+                                    {
+                                        "id": 1,
+                                        "instructions": [],
+                                        "questionStatement": "Find the Longest Increasing Subsequence",
+                                        "options": [],
+                                        "answer": ""
+                                    },
+                                    {
+                                        "id": 2,
+                                        "instructions": [],
+                                        "questionStatement": "Find the Longest Increasing Subsequence",
+                                        "options": [],
+                                        "answer": ""
+                                    },
+                                    {
+                                        "id": 3,
+                                        "instructions": [],
+                                        "questionStatement": "Find the Longest Increasing Subsequence",
+                                        "options": [],
+                                        "answer": ""
+                                    },
 
-                                ],
-                                "answers": [
-                                    "answer1",
-                                    "answer2",
-                                    "answer3",
-                                    "answer4",
-                                    "answer5"
-                                ],
-
+                                ]
                             },
                             {
                                 "type": "CodingSets",
                                 "id": 2,
                                 "name": "Practice Set 1",
                                 "questions": [
-                                    "question1",
-                                    "question2",
-                                    "question3",
-                                    "question4",
-                                    "question5"
+                                    {
+                                        "id": 1,
+                                        "instructions": [],
+                                        "questionStatement": "Find the Longest Increasing Subsequence",
+                                        "options": [],
+                                        "solution": "",
+                                        "discussion": [{
+                                            "name": "disucssion-name",
+                                            "comments": []
+                                        }]
+                                    },
+                                    {
+                                        "id": 2,
+                                        "instructions": [],
+                                        "questionStatement": "Find the Longest Increasing Subsequence",
+                                        "options": [],
+                                        "discussions": [],
+                                        "answer": ""
+                                    },
+                                    {
+                                        "id": 3,
+                                        "instructions": [],
+                                        "questionStatement": "Find the Longest Increasing Subsequence",
+                                        "options": [],
+                                        "discussions": [],
+                                        "answer": ""
+                                    },
 
-                                ],
-                                "details": [
-                                    "details1",
-                                    "details2",
-                                    "details3",
-                                    "details4",
-                                    "details5"
-
-                                ],
-                                "submit": "",
-                                "run": "",
-                                "solutions": [
-                                    "solutions1",
-                                    "solutions2",
-                                    "solutions3",
-                                    "solutions4",
-                                    "solutions5"
-                                ],
-                                "discussions": [
-                                    "discussions1",
-                                    "discussions2",
-                                    "discussions3",
-                                    "discussions4",
-                                    "discussions5"
-                                ],
-                                "reset": "",
-                                "save": ""
+                                ]
 
                             },
 
@@ -1821,274 +1038,114 @@ let dataset = [
                                 "id": 3,
                                 "name": "Practice Set 1",
                                 "questions": [
-                                    "question1",
-                                    "question2",
-                                    "question3",
-                                    "question4",
-                                    "question5"
+                                    {
+                                        "id": 1,
+                                        "instructions": [],
+                                        "questionStatement": "Find the Longest Increasing Subsequence",
+                                        "options": [],
+                                        "solution": "",
+                                        "submissions": [],
+                                        "discussion": [{
+                                            "name": "disucssion-name",
+                                            "comments": []
+                                        }]
+                                    },
+                                    {
+                                        "id": 2,
+                                        "instructions": [],
+                                        "questionStatement": "Find the Longest Increasing Subsequence",
+                                        "options": [],
+                                        "discussions": [],
+                                        "submissions": [],
+                                        "answer": ""
+                                    },
+                                    {
+                                        "id": 3,
+                                        "instructions": [],
+                                        "questionStatement": "Find the Longest Increasing Subsequence",
+                                        "options": [],
+                                        "discussions": [],
+                                        "submissions": [],
+                                        "answer": ""
+                                    },
 
-                                ],
-                                "details": [
-                                    "details1",
-                                    "details2",
-                                    "details3",
-                                    "details4",
-                                    "details5"
+                                ]
 
-                                ],
-                                "submit": "",
-                                "run": "",
-                                "solutions": [
-                                    "solutions1",
-                                    "solutions2",
-                                    "solutions3",
-                                    "solutions4",
-                                    "solutions5"
-                                ],
-                                "discussions": [
-                                    "discussions1",
-                                    "discussions2",
-                                    "discussions3",
-                                    "discussions4",
-                                    "discussions5"
-                                ],
-                                "reset": "",
-                                "save": ""
                             },
-
                             {
                                 "type": "LearningSets",
                                 "id": 4,
                                 "name": "Practice Set 1",
-                                "videodetails": "",
-                                "discussions": [
-                                    "discussions1",
-                                    "discussions2",
-                                    "discussions3",
-                                    "discussions4",
-                                    "discussions5"
-                                ],
-                                "notes": [
-                                    "notes1",
-                                    "notes2",
-                                    "notes3",
-                                    "notes4",
-                                    "notes5"
-                                ],
-                                "completed": "",
-                                "feedback": "",
-                                "doubt": ""
-                            },
+                                "videos": [
+                                    {
+                                        "id": 1,
+                                        "notes": [],
+                                        "details": "",
+                                        "discussion": [{
+                                            "name": "disucssion-name",
+                                            "comments": []
+                                        }]
+                                    },
+                                    {
+                                        "id": 2,
+                                        "instructions": [],
+                                        "questionStatement": "Find the Longest Increasing Subsequence",
+                                        "options": [],
+                                        "discussions": [],
+                                        "answer": ""
+                                    },
+                                    {
+                                        "id": 3,
+                                        "instructions": [],
+                                        "questionStatement": "Find the Longest Increasing Subsequence",
+                                        "options": [],
+                                        "discussions": [],
+                                        "answer": ""
+                                    },
 
+                                ]
+
+                            },
                             {
                                 "type": "PracticeSets",
                                 "id": 5,
                                 "name": "Practice Set 1",
                                 "questions": [
-                                    "question1",
-                                    "question2",
-                                    "question3",
-                                    "question4",
-                                    "question5"
+                                    {
+                                        "id": 1,
+                                        "instructions": [],
+                                        "questionStatement": "Find the Longest Increasing Subsequence",
+                                        "options": [],
+                                        "solution": "",
+                                        "submissions": "",
+                                        "discussion": [{
+                                            "name": "disucssion-name",
+                                            "comments": []
+                                        }]
+                                    },
+                                    {
+                                        "id": 2,
+                                        "instructions": [],
+                                        "questionStatement": "Find the Longest Increasing Subsequence",
+                                        "options": [],
+                                        "submissions": "",
+                                        "discussions": [],
+                                        "answer": ""
+                                    },
+                                    {
+                                        "id": 3,
+                                        "instructions": [],
+                                        "questionStatement": "Find the Longest Increasing Subsequence",
+                                        "options": [],
+                                        "submissions": "",
+                                        "discussions": [],
+                                        "answer": ""
+                                    },
 
-                                ],
-                                "details": [
-                                    "details1",
-                                    "details2",
-                                    "details3",
-                                    "details4",
-                                    "details5"
-
-                                ],
-                                "submit": "",
-                                "run": "",
-                                "solutions": [
-                                    "solutions1",
-                                    "solutions2",
-                                    "solutions3",
-                                    "solutions4",
-                                    "solutions5"
-                                ],
-                                "discussions": [
-                                    "discussions1",
-                                    "discussions2",
-                                    "discussions3",
-                                    "discussions4",
-                                    "discussions5"
-                                ],
-                                "reset": "",
-                                "save": ""
-
-                            },
-                            {
-                                "id": 6,
-                                "name": "Practice Set 1",
-                                "type": "McqSets",
-                                "instructions": [
-                                    "instruction1", "instruction2", "instruction3"
-                                ],
-                                "questions": [
-                                    "question1",
-                                    "question2",
-                                    "question3",
-                                    "question4",
-                                    "question5"
-
-                                ],
-                                "answers": [
-                                    "answer1",
-                                    "answer2",
-                                    "answer3",
-                                    "answer4",
-                                    "answer5"
-                                ],
-
-                            },
-                            {
-                                "type": "CodingSets",
-                                "id": 7,
-                                "name": "Practice Set 1",
-                                "questions": [
-                                    "question1",
-                                    "question2",
-                                    "question3",
-                                    "question4",
-                                    "question5"
-
-                                ],
-                                "details": [
-                                    "details1",
-                                    "details2",
-                                    "details3",
-                                    "details4",
-                                    "details5"
-
-                                ],
-                                "submit": "",
-                                "run": "",
-                                "solutions": [
-                                    "solutions1",
-                                    "solutions2",
-                                    "solutions3",
-                                    "solutions4",
-                                    "solutions5"
-                                ],
-                                "discussions": [
-                                    "discussions1",
-                                    "discussions2",
-                                    "discussions3",
-                                    "discussions4",
-                                    "discussions5"
-                                ],
-                                "reset": "",
-                                "save": ""
+                                ]
 
                             },
 
-                            {
-                                "type": "AssignmentSets",
-                                "id": 8,
-                                "name": "Practice Set 1",
-                                "questions": [
-                                    "question1",
-                                    "question2",
-                                    "question3",
-                                    "question4",
-                                    "question5"
-
-                                ],
-                                "details": [
-                                    "details1",
-                                    "details2",
-                                    "details3",
-                                    "details4",
-                                    "details5"
-
-                                ],
-                                "submit": "",
-                                "run": "",
-                                "solutions": [
-                                    "solutions1",
-                                    "solutions2",
-                                    "solutions3",
-                                    "solutions4",
-                                    "solutions5"
-                                ],
-                                "discussions": [
-                                    "discussions1",
-                                    "discussions2",
-                                    "discussions3",
-                                    "discussions4",
-                                    "discussions5"
-                                ],
-                                "reset": "",
-                                "save": ""
-                            },
-
-                            {
-                                "type": "LearningSets",
-                                "id": 9,
-                                "name": "Practice Set 1",
-                                "videodetails": "",
-                                "discussions": [
-                                    "discussions1",
-                                    "discussions2",
-                                    "discussions3",
-                                    "discussions4",
-                                    "discussions5"
-                                ],
-                                "notes": [
-                                    "notes1",
-                                    "notes2",
-                                    "notes3",
-                                    "notes4",
-                                    "notes5"
-                                ],
-                                "completed": "",
-                                "feedback": "",
-                                "doubt": ""
-                            },
-
-                            {
-                                "type": "PracticeSets",
-                                "id": 10,
-                                "name": "Practice Set 1",
-                                "questions": [
-                                    "question1",
-                                    "question2",
-                                    "question3",
-                                    "question4",
-                                    "question5"
-
-                                ],
-                                "details": [
-                                    "details1",
-                                    "details2",
-                                    "details3",
-                                    "details4",
-                                    "details5"
-
-                                ],
-                                "submit": "",
-                                "run": "",
-                                "solutions": [
-                                    "solutions1",
-                                    "solutions2",
-                                    "solutions3",
-                                    "solutions4",
-                                    "solutions5"
-                                ],
-                                "discussions": [
-                                    "discussions1",
-                                    "discussions2",
-                                    "discussions3",
-                                    "discussions4",
-                                    "discussions5"
-                                ],
-                                "reset": "",
-                                "save": ""
-
-                            },
 
                         ]
                     }
@@ -2172,20 +1229,25 @@ class Set {
 
 
 class McqSet extends Set {
+    // set;
 
     constructor(set) {
         super(set)
+        // this.set = set
+        console.log(set.content)
     }
 
 
     getInstuctions(index) {
-        console.log(content.instructions[index])
+        console.log(set.content.instructions[index])
     }
     skipQuestion() {
         console.log("question has been skipped")
     }
     getAnswer() {
-        console.log(content.answers[index])
+        // console.log(set)
+
+        // console.log(content.answers[index])
     }
 
 }
