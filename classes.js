@@ -1347,21 +1347,27 @@ class McqSet extends Set {
             set.questions.map(
                 (question) => {
                     // console.log(question)
-                    this.questionsList.push(new Questions(question))
+                    this.questionList.push(new Questions(question))
                 })
     }
-
+    getQuestions = (index) => {
+        return this.questionList[index]
+    }
 
     getInstructions = (index) => {
-        console.log(this.questions[index].instructions)
+        return this.questionList[index].instructions
     }
     skipQuestion = () => {
         console.log("question has been skipped")
     }
     getAnswer = () => {
         console.log(this.set)
+        return this.questionList[index].answer
 
         // console.log(content.answers[index])
+    }
+    getDiscussions = (index) => {
+        return this.questionList[index].discussions
     }
 
 }
@@ -1373,14 +1379,14 @@ class CodingSet extends Set {
             set.questions.map(
                 (question) => {
                     // console.log(question)
-                    this.questionsList.push(new Questions(question))
+                    this.questionList.push(new Questions(question))
                 })
     }
     getQuestions = (index) => {
-        console.log(this.questionsList[index].questionStatement)
+        return this.questionList[index]
     }
     getDetails = (index) => {
-        console.log(this.questionsList[index].details)
+        return this.questionList[index].details
 
     }
     codeSubmit() {
@@ -1390,7 +1396,7 @@ class CodingSet extends Set {
         console.log("Code is running")
     }
     getSolution = () => {
-        console.log(this.questionsList[index].solution)
+        return this.questionList[index].solution
 
 
     }
@@ -1400,6 +1406,9 @@ class CodingSet extends Set {
     }
     codeSave() {
         console.log("Code has been saved")
+    }
+    getDiscussions = (index) => {
+        return this.questionList[index].discussions
     }
 }
 class LearningSet extends Set {
@@ -1410,16 +1419,20 @@ class LearningSet extends Set {
             set.videos.map(
                 (videos) => {
                     // console.log(videos)
-                    this.questionsList.push(new Video(videos))
+                    this.videoList.push(new Video(videos))
                 })
     }
-    getVideoDetails() {
-        console.log(this.videoList[index].details)
+
+    getVideo = () => {
+        return this.videoList
+    }
+    getVideoDetails = (index) => {
+        return this.videoList[index].details
     }
 
-    getDiscussions = (index) => {
-        console.log(this.videoList[index].discussion)
-    }
+    // getDiscussions = (index) => {
+    //     console.log(this.videoList[index].discussion)
+    // }
     markDone() {
         console.log("the question is completed")
     }
@@ -1429,6 +1442,7 @@ class LearningSet extends Set {
     askDoubt() {
         doubt = "";
     }
+
 }
 class AssignmentSet extends Set {
     questionList = []
@@ -1438,16 +1452,19 @@ class AssignmentSet extends Set {
             set.questions.map(
                 (question) => {
                     // console.log(question)
-                    this.questionsList.push(new Questions(question))
+                    this.questionList.push(new Questions(question))
                 })
     }
+
     getQuestions = (index) => {
-        console.log(this.questionsList[index].questionStatement)
+        return this.questionList[index]
     }
     getDetails = (index) => {
-        console.log(this.questionsList[index].details)
+        return this.questionList[index].details
 
     }
+
+
     codeSubmit() {
         console.log("Code has been submitted")
     }
@@ -1455,7 +1472,7 @@ class AssignmentSet extends Set {
         console.log("Code is running")
     }
     getSolution = () => {
-        console.log(this.questionsList[index].solution)
+        return this.questionList[index].solution
 
 
     }
@@ -1465,6 +1482,9 @@ class AssignmentSet extends Set {
     }
     codeSave() {
         console.log("Code has been saved")
+    }
+    getDiscussions = (index) => {
+        return this.questionList[index].discussions
     }
 }
 class PracticeSet extends Set {
@@ -1481,10 +1501,10 @@ class PracticeSet extends Set {
 
 
     getQuestions = (index) => {
-        console.log(this.questionsList[index])
+        return this.questionsList[index]
     }
     getDetails = (index) => {
-        console.log(this.questionList[index].details)
+        return this.questionList[index].details
     }
     codeSubmit() {
         console.log("Code has been submitted")
@@ -1493,16 +1513,16 @@ class PracticeSet extends Set {
         console.log("Code is running")
     }
     getSolution = (index) => {
-        console.log(this.questionList[index].solution)
+        return this.questionList[index].solution
 
 
     }
     gethint = (index) => {
-        console.log(this.questionList[index].hints)
+        return this.questionList[index].hints
 
     }
-    getDiscussions(index) {
-        console.log(this.content.discussions[index])
+    getDiscussions = (index) => {
+        return this.questionList[index].discussions
     }
     codeReset() {
         console.log("Code has been reset")
@@ -1520,12 +1540,15 @@ class Questions {
     options;
     answer;
     submissions;
+    instructions;
     solution;
     discussions = [];
 
     constructor(question) {
         if (question.id != undefined)
             this.id = question.id
+        if (question.instructions != undefined)
+            this.instructions = question.instructions
         if (question.solution != undefined)
             this.solution = question.solution
         if (question.questionStatement != undefined)
@@ -1577,6 +1600,5 @@ class Discussion {
 }
 
 
-let track = new Track(dataset[0]
-)
-track.courseList[0].topicsList[0].setsList[1].getQuestions(1)
+let track = new Track(dataset[0])
+console.log(track.courseList[0].topicsList[0].setsList[1]) 
