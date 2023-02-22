@@ -299,7 +299,10 @@ let dataset = [
                                         "instructions": [],
                                         "questionStatement": "Find the Longest Increasing Subsequence",
                                         "options": [],
-                                        "discussions": [],
+                                        "discussion": [{
+                                            "name": "disucssion-name",
+                                            "comments": []
+                                        }],
                                         "submissions": [],
                                         "answer": ""
                                     },
@@ -326,7 +329,10 @@ let dataset = [
                                         "instructions": [],
                                         "questionStatement": "Find the Longest Increasing Subsequence",
                                         "options": [],
-                                        "discussions": [],
+                                        "discussion": [{
+                                            "name": "disucssion-name",
+                                            "comments": []
+                                        }],
                                         "answer": ""
                                     },
                                     {
@@ -334,7 +340,10 @@ let dataset = [
                                         "instructions": [],
                                         "questionStatement": "Find the Longest Increasing Subsequence",
                                         "options": [],
-                                        "discussions": [],
+                                        "discussion": [{
+                                            "name": "disucssion-name",
+                                            "comments": []
+                                        }],
                                         "answer": ""
                                     },
 
@@ -364,7 +373,10 @@ let dataset = [
                                         "questionStatement": "Find the Longest Increasing Subsequence",
                                         "options": [],
                                         "submissions": "",
-                                        "discussions": [],
+                                        "discussion": [{
+                                            "name": "disucssion-name",
+                                            "comments": []
+                                        }],
                                         "answer": ""
                                     },
                                     {
@@ -373,7 +385,10 @@ let dataset = [
                                         "questionStatement": "Find the Longest Increasing Subsequence",
                                         "options": [],
                                         "submissions": "",
-                                        "discussions": [],
+                                        "discussion": [{
+                                            "name": "disucssion-name",
+                                            "comments": []
+                                        }],
                                         "answer": ""
                                     },
 
@@ -440,7 +455,10 @@ let dataset = [
                                         "instructions": [],
                                         "questionStatement": "Find the Longest Increasing Subsequence",
                                         "options": [],
-                                        "discussions": [],
+                                        "discussion": [{
+                                            "name": "disucssion-name",
+                                            "comments": []
+                                        }],
                                         "answer": ""
                                     },
                                     {
@@ -448,7 +466,10 @@ let dataset = [
                                         "instructions": [],
                                         "questionStatement": "Find the Longest Increasing Subsequence",
                                         "options": [],
-                                        "discussions": [],
+                                        "discussion": [{
+                                            "name": "disucssion-name",
+                                            "comments": []
+                                        }],
                                         "answer": ""
                                     },
 
@@ -478,7 +499,10 @@ let dataset = [
                                         "instructions": [],
                                         "questionStatement": "Find the Longest Increasing Subsequence",
                                         "options": [],
-                                        "discussions": [],
+                                        "discussion": [{
+                                            "name": "disucssion-name",
+                                            "comments": []
+                                        }],
                                         "submissions": [],
                                         "answer": ""
                                     },
@@ -487,7 +511,10 @@ let dataset = [
                                         "instructions": [],
                                         "questionStatement": "Find the Longest Increasing Subsequence",
                                         "options": [],
-                                        "discussions": [],
+                                        "discussion": [{
+                                            "name": "disucssion-name",
+                                            "comments": []
+                                        }],
                                         "submissions": [],
                                         "answer": ""
                                     },
@@ -514,7 +541,10 @@ let dataset = [
                                         "instructions": [],
                                         "questionStatement": "Find the Longest Increasing Subsequence",
                                         "options": [],
-                                        "discussions": [],
+                                        "discussion": [{
+                                            "name": "disucssion-name",
+                                            "comments": []
+                                        }],
                                         "answer": ""
                                     },
                                     {
@@ -522,7 +552,10 @@ let dataset = [
                                         "instructions": [],
                                         "questionStatement": "Find the Longest Increasing Subsequence",
                                         "options": [],
-                                        "discussions": [],
+                                        "discussion": [{
+                                            "name": "disucssion-name",
+                                            "comments": []
+                                        }],
                                         "answer": ""
                                     },
 
@@ -552,7 +585,10 @@ let dataset = [
                                         "questionStatement": "Find the Longest Increasing Subsequence",
                                         "options": [],
                                         "submissions": "",
-                                        "discussions": [],
+                                        "discussion": [{
+                                            "name": "disucssion-name",
+                                            "comments": []
+                                        }],
                                         "answer": ""
                                     },
                                     {
@@ -561,7 +597,10 @@ let dataset = [
                                         "questionStatement": "Find the Longest Increasing Subsequence",
                                         "options": [],
                                         "submissions": "",
-                                        "discussions": [],
+                                        "discussion": [{
+                                            "name": "disucssion-name",
+                                            "comments": []
+                                        }],
                                         "answer": ""
                                     },
 
@@ -629,7 +668,10 @@ let dataset = [
                                         "instructions": [],
                                         "questionStatement": "Find the Longest Increasing Subsequence",
                                         "options": [],
-                                        "discussions": [],
+                                        "discussion": [{
+                                            "name": "disucssion-name",
+                                            "comments": []
+                                        }],
                                         "answer": ""
                                     },
                                     {
@@ -637,7 +679,10 @@ let dataset = [
                                         "instructions": [],
                                         "questionStatement": "Find the Longest Increasing Subsequence",
                                         "options": [],
-                                        "discussions": [],
+                                        "discussion": [{
+                                            "name": "disucssion-name",
+                                            "comments": []
+                                        }],
                                         "answer": ""
                                     },
 
@@ -667,7 +712,10 @@ let dataset = [
                                         "instructions": [],
                                         "questionStatement": "Find the Longest Increasing Subsequence",
                                         "options": [],
-                                        "discussions": [],
+                                        "discussion": [{
+                                            "name": "disucssion-name",
+                                            "comments": []
+                                        }],
                                         "submissions": [],
                                         "answer": ""
                                     },
@@ -676,7 +724,10 @@ let dataset = [
                                         "instructions": [],
                                         "questionStatement": "Find the Longest Increasing Subsequence",
                                         "options": [],
-                                        "discussions": [],
+                                        "discussion": [{
+                                            "name": "disucssion-name",
+                                            "comments": []
+                                        }],
                                         "submissions": [],
                                         "answer": ""
                                     },
@@ -703,7 +754,10 @@ let dataset = [
                                         "instructions": [],
                                         "questionStatement": "Find the Longest Increasing Subsequence",
                                         "options": [],
-                                        "discussions": [],
+                                        "discussion": [{
+                                            "name": "disucssion-name",
+                                            "comments": []
+                                        }],
                                         "answer": ""
                                     },
                                     {
@@ -711,7 +765,10 @@ let dataset = [
                                         "instructions": [],
                                         "questionStatement": "Find the Longest Increasing Subsequence",
                                         "options": [],
-                                        "discussions": [],
+                                        "discussion": [{
+                                            "name": "disucssion-name",
+                                            "comments": []
+                                        }],
                                         "answer": ""
                                     },
 
@@ -741,7 +798,10 @@ let dataset = [
                                         "questionStatement": "Find the Longest Increasing Subsequence",
                                         "options": [],
                                         "submissions": "",
-                                        "discussions": [],
+                                        "discussion": [{
+                                            "name": "disucssion-name",
+                                            "comments": []
+                                        }],
                                         "answer": ""
                                     },
                                     {
@@ -750,7 +810,10 @@ let dataset = [
                                         "questionStatement": "Find the Longest Increasing Subsequence",
                                         "options": [],
                                         "submissions": "",
-                                        "discussions": [],
+                                        "discussion": [{
+                                            "name": "disucssion-name",
+                                            "comments": []
+                                        }],
                                         "answer": ""
                                     },
 
@@ -829,7 +892,10 @@ let dataset = [
                                         "instructions": [],
                                         "questionStatement": "Find the Longest Increasing Subsequence",
                                         "options": [],
-                                        "discussions": [],
+                                        "discussion": [{
+                                            "name": "disucssion-name",
+                                            "comments": []
+                                        }],
                                         "answer": ""
                                     },
                                     {
@@ -837,7 +903,10 @@ let dataset = [
                                         "instructions": [],
                                         "questionStatement": "Find the Longest Increasing Subsequence",
                                         "options": [],
-                                        "discussions": [],
+                                        "discussion": [{
+                                            "name": "disucssion-name",
+                                            "comments": []
+                                        }],
                                         "answer": ""
                                     },
 
@@ -867,7 +936,10 @@ let dataset = [
                                         "instructions": [],
                                         "questionStatement": "Find the Longest Increasing Subsequence",
                                         "options": [],
-                                        "discussions": [],
+                                        "discussion": [{
+                                            "name": "disucssion-name",
+                                            "comments": []
+                                        }],
                                         "submissions": [],
                                         "answer": ""
                                     },
@@ -876,7 +948,10 @@ let dataset = [
                                         "instructions": [],
                                         "questionStatement": "Find the Longest Increasing Subsequence",
                                         "options": [],
-                                        "discussions": [],
+                                        "discussion": [{
+                                            "name": "disucssion-name",
+                                            "comments": []
+                                        }],
                                         "submissions": [],
                                         "answer": ""
                                     },
@@ -903,7 +978,10 @@ let dataset = [
                                         "instructions": [],
                                         "questionStatement": "Find the Longest Increasing Subsequence",
                                         "options": [],
-                                        "discussions": [],
+                                        "discussion": [{
+                                            "name": "disucssion-name",
+                                            "comments": []
+                                        }],
                                         "answer": ""
                                     },
                                     {
@@ -911,7 +989,10 @@ let dataset = [
                                         "instructions": [],
                                         "questionStatement": "Find the Longest Increasing Subsequence",
                                         "options": [],
-                                        "discussions": [],
+                                        "discussion": [{
+                                            "name": "disucssion-name",
+                                            "comments": []
+                                        }],
                                         "answer": ""
                                     },
 
@@ -941,7 +1022,10 @@ let dataset = [
                                         "questionStatement": "Find the Longest Increasing Subsequence",
                                         "options": [],
                                         "submissions": "",
-                                        "discussions": [],
+                                        "discussion": [{
+                                            "name": "disucssion-name",
+                                            "comments": []
+                                        }],
                                         "answer": ""
                                     },
                                     {
@@ -950,7 +1034,10 @@ let dataset = [
                                         "questionStatement": "Find the Longest Increasing Subsequence",
                                         "options": [],
                                         "submissions": "",
-                                        "discussions": [],
+                                        "discussion": [{
+                                            "name": "disucssion-name",
+                                            "comments": []
+                                        }],
                                         "answer": ""
                                     },
 
@@ -1017,7 +1104,10 @@ let dataset = [
                                         "instructions": [],
                                         "questionStatement": "Find the Longest Increasing Subsequence",
                                         "options": [],
-                                        "discussions": [],
+                                        "discussion": [{
+                                            "name": "disucssion-name",
+                                            "comments": []
+                                        }],
                                         "answer": ""
                                     },
                                     {
@@ -1025,7 +1115,10 @@ let dataset = [
                                         "instructions": [],
                                         "questionStatement": "Find the Longest Increasing Subsequence",
                                         "options": [],
-                                        "discussions": [],
+                                        "discussion": [{
+                                            "name": "disucssion-name",
+                                            "comments": []
+                                        }],
                                         "answer": ""
                                     },
 
@@ -1055,7 +1148,10 @@ let dataset = [
                                         "instructions": [],
                                         "questionStatement": "Find the Longest Increasing Subsequence",
                                         "options": [],
-                                        "discussions": [],
+                                        "discussion": [{
+                                            "name": "disucssion-name",
+                                            "comments": []
+                                        }],
                                         "submissions": [],
                                         "answer": ""
                                     },
@@ -1064,7 +1160,10 @@ let dataset = [
                                         "instructions": [],
                                         "questionStatement": "Find the Longest Increasing Subsequence",
                                         "options": [],
-                                        "discussions": [],
+                                        "discussion": [{
+                                            "name": "disucssion-name",
+                                            "comments": []
+                                        }],
                                         "submissions": [],
                                         "answer": ""
                                     },
@@ -1091,7 +1190,10 @@ let dataset = [
                                         "instructions": [],
                                         "questionStatement": "Find the Longest Increasing Subsequence",
                                         "options": [],
-                                        "discussions": [],
+                                        "discussion": [{
+                                            "name": "disucssion-name",
+                                            "comments": []
+                                        }],
                                         "answer": ""
                                     },
                                     {
@@ -1099,7 +1201,10 @@ let dataset = [
                                         "instructions": [],
                                         "questionStatement": "Find the Longest Increasing Subsequence",
                                         "options": [],
-                                        "discussions": [],
+                                        "discussion": [{
+                                            "name": "disucssion-name",
+                                            "comments": []
+                                        }],
                                         "answer": ""
                                     },
 
@@ -1129,7 +1234,10 @@ let dataset = [
                                         "questionStatement": "Find the Longest Increasing Subsequence",
                                         "options": [],
                                         "submissions": "",
-                                        "discussions": [],
+                                        "discussion": [{
+                                            "name": "disucssion-name",
+                                            "comments": []
+                                        }],
                                         "answer": ""
                                     },
                                     {
@@ -1138,7 +1246,10 @@ let dataset = [
                                         "questionStatement": "Find the Longest Increasing Subsequence",
                                         "options": [],
                                         "submissions": "",
-                                        "discussions": [],
+                                        "discussion": [{
+                                            "name": "disucssion-name",
+                                            "comments": []
+                                        }],
                                         "answer": ""
                                     },
 
@@ -1236,7 +1347,7 @@ class McqSet extends Set {
             set.questions.map(
                 (question) => {
                     // console.log(question)
-                    this.questionsList.push(question)
+                    this.questionsList.push(new Questions(question))
                 })
     }
 
@@ -1262,7 +1373,7 @@ class CodingSet extends Set {
             set.questions.map(
                 (question) => {
                     // console.log(question)
-                    this.questionsList.push(question)
+                    this.questionsList.push(new Questions(question))
                 })
     }
     getQuestions = (index) => {
@@ -1299,7 +1410,7 @@ class LearningSet extends Set {
             set.videos.map(
                 (videos) => {
                     // console.log(videos)
-                    this.questionsList.push(videos)
+                    this.questionsList.push(new Video(videos))
                 })
     }
     getVideoDetails() {
@@ -1327,7 +1438,7 @@ class AssignmentSet extends Set {
             set.questions.map(
                 (question) => {
                     // console.log(question)
-                    this.questionsList.push(question)
+                    this.questionsList.push(new Questions(question))
                 })
     }
     getQuestions = (index) => {
@@ -1364,7 +1475,7 @@ class PracticeSet extends Set {
             set.questions.map(
                 (question) => {
                     // console.log(question)
-                    this.questionsList.push(question)
+                    this.questionsList.push(new Questions(question))
                 })
     }
 
@@ -1398,6 +1509,70 @@ class PracticeSet extends Set {
     }
     codeSave() {
         console.log("Code has been saved")
+    }
+}
+
+
+class Questions {
+
+    id;
+    questionStatement;
+    options;
+    answer;
+    submissions;
+    solution;
+    discussions = [];
+
+    constructor(question) {
+        if (question.id != undefined)
+            this.id = question.id
+        if (question.solution != undefined)
+            this.solution = question.solution
+        if (question.questionStatement != undefined)
+            this.questionStatement = question.questionStatement
+        if (question.options != undefined)
+            this.options = question.options
+        if (question.answer != undefined)
+            this.answer = question.answer
+        if (question.submissions != undefined)
+            this.submissions = question.submissions
+        if (question.discussion != undefined)
+            question.discussion.map((discussion) => {
+                this.discussions.push(new Discussion(discussion))
+            })
+    }
+}
+
+
+class Video {
+
+    id;
+    notes;
+    details;
+    discussions = [];
+
+    constructor(video) {
+        if (video.id != undefined)
+            this.id = video.id
+        if (video.notes != undefined)
+            this.notes = video.solution
+        if (video.details != undefined)
+            this.details = video.details
+        if (video.discussion != undefined)
+            video.discussion.map((discussion) => {
+                this.discussions.push(new Discussion(discussion))
+            })
+    }
+}
+
+class Discussion {
+    name;
+    comments = [];
+    constructor(discussion) {
+        this.name = discussion.name
+        discussion.comments.map((comment) => {
+            this.comments.push(comment);
+        })
     }
 }
 
