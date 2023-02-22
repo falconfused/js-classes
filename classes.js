@@ -1218,49 +1218,59 @@ class Set {
     id;
     name;
     type;
-    content;
+    questionsList = []
     constructor(set) {
         this.id = set.id;
         this.name = set.name
         this.type = set.type
-        this.content = set
     }
 }
 
 
 class McqSet extends Set {
-    // set;
+    questionList = []
 
     constructor(set) {
         super(set)
-        // this.set = set
-        console.log(set.content)
+        if (set.questions != undefined)
+            set.questions.map(
+                (question) => {
+                    // console.log(question)
+                    this.questionsList.push(question)
+                })
     }
 
 
-    getInstuctions(index) {
-        console.log(set.content.instructions[index])
+    getInstructions = (index) => {
+        console.log(this.questions[index].instructions)
     }
-    skipQuestion() {
+    skipQuestion = () => {
         console.log("question has been skipped")
     }
-    getAnswer() {
-        // console.log(set)
+    getAnswer = () => {
+        console.log(this.set)
 
         // console.log(content.answers[index])
     }
 
 }
 class CodingSet extends Set {
-
+    questionList = []
     constructor(set) {
         super(set)
+        if (set.questions != undefined)
+            set.questions.map(
+                (question) => {
+                    // console.log(question)
+                    this.questionsList.push(question)
+                })
     }
-    getQuestions(index) {
-        console.log(content.questions[index])
+    getQuestions = (index) => {
+        console.log(this.questionsList[index].questionStatement)
     }
-    getDetails(index) {
-        console.log(content.details[index])
+    getDetails = (index) => {
+        console.log(this.questionsList[index].details)
+
     }
     codeSubmit() {
         console.log("Code has been submitted")
@@ -1268,16 +1278,12 @@ class CodingSet extends Set {
     codeRun() {
         console.log("Code is running")
     }
-    getSolution() {
-        console.log(content.solutions[index])
+    getSolution = () => {
+        console.log(this.questionsList[index].solution)
+
 
     }
-    gethint(index) {
-        console.log(content.hints[index])
-    }
-    gethint(index) {
-        console.log(content.discussions[index])
-    }
+
     codeReset() {
         console.log("Code has been reset")
     }
@@ -1286,17 +1292,22 @@ class CodingSet extends Set {
     }
 }
 class LearningSet extends Set {
-
+    videoList = [];
     constructor(set) {
         super(set)
+        if (set.videos != undefined)
+            set.videos.map(
+                (videos) => {
+                    // console.log(videos)
+                    this.questionsList.push(videos)
+                })
     }
-
     getVideoDetails() {
-        console.log(videodetails)
+        console.log(this.videoList[index].details)
     }
 
-    getDiscussions(index) {
-        console.log(content.discussions[index])
+    getDiscussions = (index) => {
+        console.log(this.videoList[index].discussion)
     }
     markDone() {
         console.log("the question is completed")
@@ -1309,15 +1320,22 @@ class LearningSet extends Set {
     }
 }
 class AssignmentSet extends Set {
-
+    questionList = []
     constructor(set) {
         super(set)
+        if (set.questions != undefined)
+            set.questions.map(
+                (question) => {
+                    // console.log(question)
+                    this.questionsList.push(question)
+                })
     }
-    getQuestions(index) {
-        console.log(content.questions[index])
+    getQuestions = (index) => {
+        console.log(this.questionsList[index].questionStatement)
     }
-    getDetails(index) {
-        console.log(content.details[index])
+    getDetails = (index) => {
+        console.log(this.questionsList[index].details)
+
     }
     codeSubmit() {
         console.log("Code has been submitted")
@@ -1325,16 +1343,12 @@ class AssignmentSet extends Set {
     codeRun() {
         console.log("Code is running")
     }
-    getSolution() {
-        console.log(content.solutions[index])
+    getSolution = () => {
+        console.log(this.questionsList[index].solution)
+
 
     }
-    getHint(index) {
-        console.log(content.hints[index])
-    }
-    getDiscussions(index) {
-        console.log(content.discussions[index])
-    }
+
     codeReset() {
         console.log("Code has been reset")
     }
@@ -1343,17 +1357,23 @@ class AssignmentSet extends Set {
     }
 }
 class PracticeSet extends Set {
-
+    questionList = [];
     constructor(set) {
         super(set)
+        if (set.questions != undefined)
+            set.questions.map(
+                (question) => {
+                    // console.log(question)
+                    this.questionsList.push(question)
+                })
     }
 
 
-    getQuestions(index) {
-        console.log(content.questions[index])
+    getQuestions = (index) => {
+        console.log(this.questionsList[index])
     }
-    getDetails(index) {
-        console.log(content.details[index])
+    getDetails = (index) => {
+        console.log(this.questionList[index].details)
     }
     codeSubmit() {
         console.log("Code has been submitted")
@@ -1361,15 +1381,17 @@ class PracticeSet extends Set {
     codeRun() {
         console.log("Code is running")
     }
-    getSolution() {
-        console.log(content.solutions[index])
+    getSolution = (index) => {
+        console.log(this.questionList[index].solution)
+
 
     }
-    gethint(index) {
-        console.log(content.hints[index])
+    gethint = (index) => {
+        console.log(this.questionList[index].hints)
+
     }
     getDiscussions(index) {
-        console.log(content.discussions[index])
+        console.log(this.content.discussions[index])
     }
     codeReset() {
         console.log("Code has been reset")
@@ -1380,7 +1402,6 @@ class PracticeSet extends Set {
 }
 
 
-let track = new Track(dataset[0])
-
-
-console.log(track)
+let track = new Track(dataset[0]
+)
+track.courseList[0].topicsList[0].setsList[1].getQuestions(1)
